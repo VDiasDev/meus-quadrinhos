@@ -1,0 +1,18 @@
+@import url("styles/header.css");
+@import url("styles/quadrinhos.css");
+@import url("styles/card.css");
+@import url("styles/rodape.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+:root {
+    --cor-cinza: #e4e4e4;
+    --cor-vermelho: #e60000;
+    --cor-branco: #ffffff;
+    --cor-preto: #000000;
+}
+
+body {
+    background-color: var(--cor-cinza);
+}
+

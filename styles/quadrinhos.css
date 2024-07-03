@@ -1,0 +1,48 @@
+.quadrinhos__lista__capa {
+    width: 60%;
+    border-radius: 10px;
+}
+
+.quadrinhos__lista {
+    width: 100%;
+    text-align: center;
+}
+
+.quadrinhos__titulo {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+
+    text-align: center;
+    padding: 1em 0;
+}
+
+.quadrinhos__lista__nome {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    margin: 1.5em 0 1.5em 27%;
+    padding: 1em 2em;
+    background-color: var(--cor-vermelho);
+    width: 30%;
+    color: var(--cor-branco);
+    border-radius: 15px;
+}
+
+.quadrinhos__clicavel {
+    text-decoration: none;
+    padding-top: 1em;
+}
+
+.quadrinhos__item{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-branco);
+    margin: 1em 1em 2em 2.3em;
+    border: 1px solid var(--cor-preto);
+    border-radius: 24px;
+    box-shadow: 3px 3px 17px var(--cor-preto);
+}
