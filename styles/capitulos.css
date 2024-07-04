@@ -6,27 +6,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
+
+
 
 .cap__lista__item {
     text-decoration: none;
     color: var(--cor-preto);
-    padding: 1em;
     font-family: "Anton SC", sans-serif;
     font-size: 18px;
+    padding: 2em 3.5em;
 }
 
 .cap__lista {
-    padding: 3em 2em;
+    padding: 3em 0;
     background-color: var(--cor-branco);
     margin: 1.5em;
     border: 2px solid var(--cor-vermelho);
     border-radius: 24px;
     box-shadow: 3px 3px 7px var(--cor-vermelho);
-    width: 70%;
+    width: 85%;
     text-align: center;
-
 }
 
 .cap__lista:hover {
