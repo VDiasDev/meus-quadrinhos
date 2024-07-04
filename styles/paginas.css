@@ -1,0 +1,29 @@
+
+.paginas {
+    background-color: var(--cor-branco);
+    margin: 1em;
+    text-align: center;
+}
+
+.paginas__lista {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paginas__pagina {
+    margin: 1em 0;
+    width: 85%;
+}
+
+.paginas__pagina-imagem {
+    width: 100%;
+    margin-bottom: 0.5em;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.paginas__numero {
+    font-family: "Anton SC", sans-serif;
+}

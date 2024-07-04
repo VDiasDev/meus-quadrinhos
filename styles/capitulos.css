@@ -1,0 +1,37 @@
+.capitulos {
+    margin: 1em;
+}
+
+.capitulos__lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cap__lista__item {
+    text-decoration: none;
+    color: var(--cor-preto);
+    padding: 4em;
+    font-family: "Anton SC", sans-serif;
+
+}
+
+.cap__lista {
+    padding: 3em;
+    background-color: var(--cor-branco);
+    margin: 1.5em;
+    border: 2px solid var(--cor-vermelho);
+    border-radius: 24px;
+    box-shadow: 3px 3px 7px var(--cor-vermelho);
+}
+
+.cap__lista:hover {
+    background-color: rgb(255, 230, 230);
+}
+
+.janela {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

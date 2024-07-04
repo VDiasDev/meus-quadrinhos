@@ -20,6 +20,8 @@
 .cabecalho__titulo {
     padding: 1em;
     font-size: 24px;
+    text-decoration: none;
+    color: var(--cor-branco);
 }
 
 .quadrinhos__lista {
@@ -41,4 +43,36 @@
 
 .menu {
     display: none;
+}
+
+ /* Estilo inicial dos itens do menu */
+.menu__itens {
+    display: none;
+}
+
+/* Estilo dos itens do menu quando o checkbox está marcado */
+.menu:checked ~ .menu__itens {
+    display: block;
+    position: absolute;
+    right: 0%;
+    top: 8.6%;
+}
+
+.sobremim {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-branco);
+    padding: 1em 0;
+    border: 1px solid var(--cor-vermelho);
+}
+
+.sobremim__link {
+    text-decoration: none;
+    color: black;
+    padding: 1em 3em;
+}
+
+.sobremim__link:hover{
+    background-color: var(--cor-vermelho);
+    color: var(--cor-branco);
 }

@@ -3,7 +3,14 @@
     display: flex;
     justify-content: center;
     gap: 2em;
+    box-shadow: 3px 3px 17px var(--cor-vermelho);
+    margin-bottom: 1em;
+    background-image: url("../img/WH-logo.png");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: 11%;
 }
+
 
 .mais-acessado-capa {
     width: 40%;
@@ -17,10 +24,11 @@
     flex-direction: column;
     align-items: center;
     padding-left: 2em;
+    gap: 5.5em;
 }
 
 .card__titulo {
-    padding-top: 3em;
+    padding-top: 1.5em;
     font-family: "Anton SC", sans-serif;
     font-weight: 400;
     font-style: normal;
