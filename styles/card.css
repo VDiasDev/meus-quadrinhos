@@ -45,8 +45,91 @@
     text-align: center;
     margin: 2em;
     padding: 1em 2em;
-    background-color: var(--cor-vermelho);
+    background: var(--cor-vermelho-gradiente);
     width: 50%;
     color: var(--cor-branco);
     border-radius: 15px;
+}
+
+@media screen and (min-width:1024px){
+    .card{
+        margin: 2em;
+        border-radius: 24px;
+        justify-content: space-between;
+        background-position: 22%;
+        background-position-y: 40%;
+        background-size: 35%;
+    }
+
+    .mais-acessado-capa {
+        width: 40%;
+        margin: 2em 5em 2em 0;
+    }
+
+    .card__titulo {
+        margin-left: 2.5em;
+        font-size: 35px;
+    }
+
+    .card__container {
+        justify-content: space-between;
+    }
+    
+    .card__botao {
+        margin: 1em;
+        margin-left: 4em;
+        font-size: 34px;
+    }
+    
+}
+
+@media screen and (min-width:1367px) {
+
+    .centraliza{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 40% 60%;
+        height: 70vh;
+    }
+
+    .card_esquerda{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        height: 60%;
+        margin: auto 2em;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-position: 15%;
+    }
+
+    .card__container {
+        justify-content: space-between;
+        margin: 2.5em 0;
+        padding: 0;
+    }
+
+    .card__titulo{
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .card__botao{
+        margin: 0;
+        padding: 1em;
+        font-size: 15px;
+    }
+    .mais-acessado-capa{
+        margin: 1em 0;
+        padding: 0;
+
+    }
 }

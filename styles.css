@@ -12,9 +12,11 @@
     --cor-vermelho: #e60000;
     --cor-branco: #ffffff;
     --cor-preto: #000000;
+    --cor-vermelho-gradiente: linear-gradient(to right, red, #640000);
 }
 
 body {
     background-color: var(--cor-cinza);
+
 }
 

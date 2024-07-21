@@ -1,6 +1,7 @@
 
 .paginas {
     background-color: var(--cor-branco);
+    background-color: rgb(66, 66, 66);
     margin: 1em;
     text-align: center;
 }
@@ -26,4 +27,11 @@
 
 .paginas__numero {
     font-family: "Anton SC", sans-serif;
+    color: white;
+}
+
+@media screen and (min-width:1367px) {
+    .paginas__pagina{
+        width: 40%;
+    }
 }

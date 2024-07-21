@@ -1,5 +1,5 @@
 .rodape {
-    background-color: var(--cor-vermelho);
+    background: var(--cor-vermelho-gradiente);
     color: var(--cor-branco);
     display: flex;
     flex-direction: column;
@@ -27,3 +27,12 @@
     text-align: center;
 }
 
+@media screen and (min-width:1024px) {
+    .rodape__titulo {
+        font-size: 25px;
+    }
+
+    .rodape__links {
+        font-size: 25px;
+    }
+}

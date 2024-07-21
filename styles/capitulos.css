@@ -24,19 +24,67 @@
     box-shadow: 3px 3px 7px var(--cor-vermelho);
 }
 
-.cap__lista {
-    padding:0;
-    margin: 0;
-    margin: 0em 0;
-}
-
-.cap__lista:hover {
-    background-color: rgb(255, 230, 230);
-}
-
 .janela {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.botoes__fim {
+    display: flex;
+    justify-content: center;
+}
+
+.botao {
+    background: var(--cor-vermelho-gradiente);
+    text-decoration: none;
+    color: var(--cor-branco);
+    font-family: "Anton SC", sans-serif;
+    font-size: 15px;
+    padding: 1em 2em;
+    margin: 1em;
+    border-radius: 10px;
+}
+
+.botao:hover {
+    background-color: #b40000;
+    box-shadow: 3px 3px 7px var(--cor-vermelho);
+}
+
+@media screen and (min-width:1024px) {
+    .cap__lista__item{
+        font-size: 34px;
+    }
+
+    .capitulos__lista {
+        gap: 15em;
+        margin: 10em 0;
+    }
+
+    .botao {
+        font-size: 34px;
+        margin-bottom: 3em;
+    }
+}
+
+@media screen and (min-width:1367px) {
+    .cap__lista__item{
+        font-size: 20px;
+        padding: 1.5em 4em ;
+    }
+
+    .cap__lista_item:hover {
+        background-color: rgb(232, 45, 45);
+    }
+
+    .capitulos__lista {
+        gap: 6em;    
+        margin: 4em 0;
+    }
+
+    .botao{
+        font-size: 20px;
+        margin-bottom: 2em;
+    }
 }

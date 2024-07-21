@@ -1,5 +1,5 @@
 .cabecalho {
-    background-color: var(--cor-vermelho);
+
     color: var(--cor-branco);
     
     font-family: "Anton SC", sans-serif;
@@ -10,10 +10,10 @@
     justify-content: space-between;
     align-items: center;
 
-    background-image: url("../img/Mary-draw.png");
-    background-repeat: no-repeat;
-    background-size: 30%;
-    background-position: 70%;
+    background: url('../img/Mary-draw.png'),  var(--cor-vermelho-gradiente);
+    background-size: 30%, cover;
+    background-position: 70%, center;
+    background-repeat: no-repeat, no-repeat;
 
 }
 
@@ -73,6 +73,60 @@
 }
 
 .sobremim__link:hover{
-    background-color: var(--cor-vermelho);
+    background: var(--cor-vermelho-gradiente);
     color: var(--cor-branco);
+}
+
+@media screen and (min-width:1024px){
+    .cabecalho__titulo {
+        font-size: 55px;
+    }
+
+    .hamburguer-img {
+        width: 55%;
+        height: 60%;
+    }
+
+        /* Estilo dos itens do menu quando o checkbox está marcado */
+    .menu:checked ~ .menu__itens {
+        display: block;
+        position: absolute;
+        right: 0%;
+        top: 14%;
+    }
+
+    .sobremim {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--cor-branco);
+        padding: 1em 0;
+        border: 1px solid var(--cor-vermelho);
+    }
+    
+    .sobremim__link {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width:1367px) {
+    .hamburguer-img{
+    width: 25%;
+    height: 27%;
+    margin-right: 0;
+    }
+
+    .label__menu {
+        text-align: center;
+    }
+
+    .cabecalho__titulo {
+        font-size: 34px;
+    }
+
+    .cabecalho {
+        background: url('../img/Mary-draw.png'),  var(--cor-vermelho-gradiente);
+        background-size: 15%, cover;
+        background-position: 70%, center;
+        background-repeat: no-repeat, no-repeat;
+    }
 }

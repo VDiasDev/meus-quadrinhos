@@ -25,7 +25,7 @@
     font-size: 15px;
     margin: 1.5em 0 1.5em 27%;
     padding: 1em 2em;
-    background-color: var(--cor-vermelho);
+    background: var(--cor-vermelho-gradiente);
     width: 30%;
     color: var(--cor-branco);
     border-radius: 15px;
@@ -45,4 +45,52 @@
     border: 1px solid var(--cor-vermelho);
     border-radius: 24px;
     box-shadow: 3px 3px 17px var(--cor-vermelho);
+    align-items: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .quadrinhos__titulo {
+        font-size: 36px;
+        padding: 0.3 0 0.7 0;
+    }
+
+    .quadrinhos__lista {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .quadrinhos__lista__nome{
+        margin: 1em auto;
+        font-size: 34px;
+    }
+}
+
+@media screen and (min-width: 1367px) {
+    .quadrinhos{
+        width: 100%;
+        height: 70vh;
+    }
+
+    .quadrinhos__titulo{
+        width: 100%;
+        margin-top: 1em;
+    }
+
+    .quadrinhos__lista{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: left;
+        margin: 0;
+    }
+
+    .quadrinhos__item{
+        width: 25%;
+    }
+
+    .quadrinhos__lista__nome{
+        font-size: 18px;
+        width: 50%;
+    }
 }
